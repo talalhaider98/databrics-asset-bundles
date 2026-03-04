@@ -1,0 +1,12 @@
+resources:
+  jobs:
+    New_Job_Mar_04_2026_03_42_PM:
+      name: New Job Mar 04, 2026, 03:42 PM
+      tasks:
+        - task_key: first_nb
+          notebook_task:
+            notebook_path: ../../src/first_notebook.ipynb
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
